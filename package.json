@@ -1,0 +1,26 @@
+{
+  "name": "journallingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/index.js",
+    "client": "npm run client --prefix frontend",
+    "start": "concurrently --raw \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omer-storm/JournallingApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omer-storm/JournallingApp/issues"
+  },
+  "homepage": "https://github.com/omer-storm/JournallingApp#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
