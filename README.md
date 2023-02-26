@@ -1,15 +1,15 @@
 # taskplanner
 
-1.Change .envexample files to .env.
+1.Change .envexample file to .env in backend folder.
 
 
-2.Change constantsexample file to constants
+2.Change ConstantsExample file in frontend/src folder to Constants
 
 
-3.Add the variables to .env and constants
+3.Add the value of variables to .env and constants
 
 
-4.do npm i in all three folders
+4.do npm i in backend and and frontend folders
 
 
-5.do npm start in main project folder
+5.do npm start in backend and frontend folders

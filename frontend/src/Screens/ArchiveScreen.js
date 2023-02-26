@@ -3,8 +3,13 @@ import AndroidSafeAreaView from "../AndroidSafeAreaView";
 import Icon from "react-native-vector-icons/Ionicons";
 import React from "react";
 import ArchiveList from "../Components/ArchiveList";
+import { useNavigation } from "@react-navigation/native";
+
 
 const ArchiveScreen = () => {
+  const nav = useNavigation();
+
+
   return (
     <View style={AndroidSafeAreaView.AndroidSafeArea}>
       <ScrollView>
